@@ -57,3 +57,18 @@ h6{
         color: black;
         transition: 0.3s ease;
 }
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #088178;
+}
+/*Psedoklasa*/
+#navbar li a.active::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
