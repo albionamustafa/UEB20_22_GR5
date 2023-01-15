@@ -28,3 +28,13 @@ h6{
     font-weight : 700 ;
     font-size : 12px ;
 }
+/* Header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+}
+
