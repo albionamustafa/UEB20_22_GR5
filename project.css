@@ -46,4 +46,14 @@ h6{
 
 #navbar li{
     list-style: none;
-    padding: 0px 20px;}
+    padding: 0px 20px;
+}
+
+
+#navbar li a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 700;
+        color: black;
+        transition: 0.3s ease;
+}
