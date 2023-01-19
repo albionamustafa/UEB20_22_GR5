@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'League Spartan', sans-serif;
+}   
+
+body{
+    background-color:  rgb(116, 196, 224);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+p {
+    font-size: 22px;
+   
+    }
+
+
+.about-1{
+    margin: 30px;
+    padding: 50px;
+
+    text-decoration: solid;
+}
+.about-1 h1{
+    text-align: center;
+   
+    color: rgb(7, 6, 6);
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 10px;
+    color: rgb(14, 12, 12);
+}
+
+
+.about-item{
+    margin-bottom: 100px;
+    margin-top: 10px;
+    background-color:#b7dbf0 ;
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+
+
+
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.about-item:hover{
+    background-color: rgb(74, 135, 175);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #b7dbf0;
+}
+
+
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
