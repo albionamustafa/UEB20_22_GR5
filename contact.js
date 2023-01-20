@@ -51,3 +51,16 @@ function emailIsValid(email) {
 let pattern = /\S+@\S+.\S+/;
 return pattern.test(email);
 }
+
+// call back function me parametra
+function  FaleminderitperMesazhin(nameInput, email, callback) {
+    var fullUser = nameInput + "me: " + email;
+    callback(fullUser);
+  }
+  
+  function displayMessage(fullUser) {
+    console.log("Faleminderit per mesazhin, " + fullUser + "!");
+  }
+  
+ 
+  
