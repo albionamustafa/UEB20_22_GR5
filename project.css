@@ -29,6 +29,39 @@ h6{
     font-size : 12px ;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'League Spartan', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+h2{
+    font-size: 46px ;
+    line-height: 54px;
+    color: black;
+}
+h3{
+    font-size: 34px ;
+    line-height: 44px;
+    color: black;
+}
+h4{
+    font-size: 20px;
+    color: black;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
 header{
     display: flex;
     position: fixed;
@@ -39,7 +72,7 @@ header{
     justify-content: space-between;
     background-color: #E3E6F3;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.06);
-    padding: 20px 80px;
+    padding: 10px 80px;
     z-index: 1000;
 }
 header .navbar ul{
@@ -89,23 +122,78 @@ header .navbar ul li:hover > ul{
     display: initial;
 
 }
-
-
-/*Main content*/
-.imagemain{
-    min-height: 100vh;
-    display: flex;
-    top: 0;
-    left: 0;
-    right: 0;
-   margin: 0;
-   margin-left: 0;
-   margin-right: 0;
-    padding: 0px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+ ${
+    margin:0px;
+    padding:0px;
+    border:0px;
  }
+body{
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffff 0% #e5e5e5);
+    background: -webkit-linear-gradient(top, #ffff 0% #e5e5e5);
+    background: linear-gradient(top bottom,  #ffff 0% #e5e5e5);
+    filter: progid:DXImageTransform.gradient(starColorstr='#ffffff', endColorstr='e5e5e5',GradientType=0);
+}
+#nav{
+    list-style-type:none;
+    z-index: 150;
+}
+#nav li a{
+    display: block;
+    width:58px;
+    height:102px;
+    text-indent:-9999px;
+    outline:none;
+}
+#prev a{
+    background: url();
+    width:100px;
+    height: 200px;
+    position: absolute;
+    top:240px;
+    left:-70px
+}
+
+#next a:hover{
+        background-color: #088178;
+        color: #fff;
+    }
+    #next a:hover{
+        background-color: #088178;
+        color: #fff;
+    }
+ /*video*/
+ #wrapper { 
+    width: 920px; 
+    height: 350px; 
+    margin: 0 auto; 
+} 
+
+#home1 { 
+    width: 400px; 
+    height: 300px; 
+    float: left; 
+} 
+
+#home2 { 
+    width: 400px; 
+    height: 300px; 
+    float: right; 
+}
+
+@media (max-width:767px) {
+    .home1 {
+        position: relative;
+        padding-bottom: 56.25%; /* 16/9 ratio */
+        padding-top: 30px; /* IE6 workaround*/
+        height: 0;
+        overflow: hidden;
+    }
+    .home2 {
+        margin-left: 0;
+    }
+}
+
 
  footer{
     display: flex;
