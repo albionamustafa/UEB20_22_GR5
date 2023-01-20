@@ -9,8 +9,12 @@ function validateForm() {
 clearMessages();
 let errorFlag = false;
 
-if (nameInput.value.length < 1) {
-    errorNodes[0].innerText = "Name can not be blank";
+try {
+    if (nameInput.value.length < 1) {
+        throw new Error("Name can not be blank");
+    }
+} catch (error) {
+    errorNodes[0].innerText = error.message;
     nameInput.classList.add("error-border");
     errorFlag = true;
 }
