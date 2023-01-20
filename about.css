@@ -38,7 +38,6 @@ p {
     color: rgb(14, 12, 12);
 }
 
-
 .about-item{
     margin-bottom: 100px;
     margin-top: 10px;
@@ -48,15 +47,10 @@ p {
 }
 
 
-
-
 .about-item h3{
     font-size: 25px;
     margin-bottom: 10px;
 }
-
-
-
 
 .about-item:hover{
     background-color: rgb(74, 135, 175);
@@ -69,8 +63,6 @@ p {
 .about-item:hover hr{
     background-color: #b7dbf0;
 }
-
-
 
 .about-item:hover i,
 .about-item:hover h3,

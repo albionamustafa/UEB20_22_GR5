@@ -67,7 +67,7 @@ textarea::-webkit-scrollbar-thumb{
     text-align: center;
 
 }
-input[type="submit"]{
+input[type ="submit"]{
     margin-top: 30px;
     width: 90%;
     max-width: 200px;
