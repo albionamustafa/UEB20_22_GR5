@@ -46,13 +46,3 @@ $(document).ready(function(){
     });
   });
   
-/*map at jeans*/
-// Create a Map
-const jeans = new Map();
-
-// Set Map Values
-jeans.set("Loose fit jeans", 29.99);
-jeans.set("Straight-fit vintage jeans", 25.99);
-jeans.set("Wide-leg ’90s jeans", 12.99);
-
-document.getElementById("Mapping").innerHTML =jeans.get("Loose fit jeans");
